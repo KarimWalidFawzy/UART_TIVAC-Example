@@ -1,0 +1,15 @@
+.\timers.o: timers.c
+.\timers.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdlib.h
+.\timers.o: include/FreeRTOS.h
+.\timers.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\timers.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\timers.o: include/FreeRTOSConfig.h
+.\timers.o: include/projdefs.h
+.\timers.o: include/portable.h
+.\timers.o: include/deprecated_definitions.h
+.\timers.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\timers.o: include/mpu_wrappers.h
+.\timers.o: include/task.h
+.\timers.o: include/list.h
+.\timers.o: include/queue.h
+.\timers.o: include/timers.h

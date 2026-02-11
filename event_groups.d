@@ -1,0 +1,15 @@
+.\event_groups.o: event_groups.c
+.\event_groups.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdlib.h
+.\event_groups.o: include/FreeRTOS.h
+.\event_groups.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\event_groups.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\event_groups.o: include/FreeRTOSConfig.h
+.\event_groups.o: include/projdefs.h
+.\event_groups.o: include/portable.h
+.\event_groups.o: include/deprecated_definitions.h
+.\event_groups.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\event_groups.o: include/mpu_wrappers.h
+.\event_groups.o: include/task.h
+.\event_groups.o: include/list.h
+.\event_groups.o: include/timers.h
+.\event_groups.o: include/event_groups.h

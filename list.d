@@ -1,0 +1,12 @@
+.\list.o: list.c
+.\list.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdlib.h
+.\list.o: include/FreeRTOS.h
+.\list.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\list.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\list.o: include/FreeRTOSConfig.h
+.\list.o: include/projdefs.h
+.\list.o: include/portable.h
+.\list.o: include/deprecated_definitions.h
+.\list.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\list.o: include/mpu_wrappers.h
+.\list.o: include/list.h

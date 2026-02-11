@@ -1,0 +1,16 @@
+.\uart.o: UART.c
+.\uart.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\uart.o: inc/tm4c123gh6pm.h
+.\uart.o: include/FreeRTOS.h
+.\uart.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\uart.o: include/FreeRTOSConfig.h
+.\uart.o: include/projdefs.h
+.\uart.o: include/portable.h
+.\uart.o: include/deprecated_definitions.h
+.\uart.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\uart.o: include/mpu_wrappers.h
+.\uart.o: include/task.h
+.\uart.o: include/list.h
+.\uart.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdarg.h
+.\uart.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdio.h
+.\uart.o: UART.h

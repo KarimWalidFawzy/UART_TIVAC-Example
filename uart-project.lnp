@@ -1,0 +1,18 @@
+--cpu Cortex-M4.fp
+".\croutine.o"
+".\event_groups.o"
+".\heap_4.o"
+".\lcd.o"
+".\list.o"
+".\main.o"
+".\queue.o"
+".\startup_tm4c123.o"
+".\system_tm4c123.o"
+".\tasks.o"
+".\timers.o"
+".\uart.o"
+".\driverlib\rvmdk\driverlib.lib"
+".\port.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\uart-project.map" -o .\uart-project.axf

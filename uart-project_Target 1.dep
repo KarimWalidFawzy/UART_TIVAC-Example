@@ -1,0 +1,189 @@
+Dependencies for Project 'uart-project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\croutine.c)(0x68A1CB21)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\croutine.o --omf_browse .\croutine.crf --depend .\croutine.d)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (include/croutine.h)(0x62724097)
+F (.\event_groups.c)(0x68A1CBCF)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\event_groups.o --omf_browse .\event_groups.crf --depend .\event_groups.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (include/timers.h)(0x62724097)
+I (include/event_groups.h)(0x62724097)
+F (.\heap_4.c)(0x68A1DB7F)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\heap_4.o --omf_browse .\heap_4.crf --depend .\heap_4.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+F (.\LCD.c)(0x68B402D4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (LCD.h)(0x68B4005F)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (driverlib/gpio.h)(0x687E7A75)
+I (C:\Keilv4\ARM\ARMCC\include\stdbool.h)(0x51C80BA4)
+I (driverlib/sysctl.h)(0x687FB288)
+I (driverlib/pin_map.h)(0x62724097)
+I (driverlib/adc.h)(0x62724097)
+I (inc/hw_memmap.h)(0x687E44FC)
+I (inc/tm4c123gh6pm.h)(0x687E492F)
+I (driverlib/interrupt.h)(0x687E4C79)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdarg.h)(0x51C80BA4)
+F (.\list.c)(0x68A1CBE7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/list.h)(0x62724097)
+F (.\main.c)(0x69396A5E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (UART.h)(0x6918377B)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (include/timers.h)(0x62724097)
+I (include/queue.h)(0x62724097)
+I (include/semphr.h)(0x62724097)
+I (driverlib/gpio.h)(0x687E7A75)
+I (C:\Keilv4\ARM\ARMCC\include\stdbool.h)(0x51C80BA4)
+I (driverlib/sysctl.h)(0x687FB288)
+I (driverlib/pin_map.h)(0x62724097)
+I (include/event_groups.h)(0x62724097)
+I (inc/hw_memmap.h)(0x687E44FC)
+I (inc/tm4c123gh6pm.h)(0x687E492F)
+I (inc/hw_ints.h)(0x687E4C68)
+I (driverlib/interrupt.h)(0x687E4C79)
+I (LCD.h)(0x68B4005F)
+I (LED.h)(0x68B4959E)
+F (.\queue.c)(0x68A1CC07)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\queue.o --omf_browse .\queue.crf --depend .\queue.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (include/queue.h)(0x62724097)
+F (.\startup_TM4C123.s)(0x68B6847E)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\system_TM4C123.c)(0x68B72F0D)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\system_tm4c123.o --omf_browse .\system_tm4c123.crf --depend .\system_tm4c123.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\Inc\TI\TM4C123\TM4C123.h)(0x532C4878)
+I (C:\Keilv4\ARM\Inc\TI\TM4C123\TM4C123GH6PM.h)(0x532C4878)
+I (C:\Keilv4\ARM\CMSIS\Include\core_cm4.h)(0x532C4C22)
+I (C:\Keilv4\ARM\CMSIS\Include\core_cmInstr.h)(0x532C4C22)
+I (C:\Keilv4\ARM\CMSIS\Include\core_cmFunc.h)(0x532C4C22)
+I (C:\Keilv4\ARM\CMSIS\Include\core_cm4_simd.h)(0x532C4C22)
+I (C:\Keilv4\ARM\Inc\TI\TM4C123\system_TM4C123.h)(0x532C4878)
+F (.\tasks.c)(0x68A1CC2E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (include/timers.h)(0x62724097)
+I (include/StackMacros.h)(0x62724097)
+F (.\timers.c)(0x68A1CBA9)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\timers.o --omf_browse .\timers.crf --depend .\timers.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (include/queue.h)(0x62724097)
+I (include/timers.h)(0x62724097)
+F (.\UART.c)(0x69183785)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (inc/tm4c123gh6pm.h)(0x687E492F)
+I (include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (include/FreeRTOSConfig.h)(0x68B6851C)
+I (include/projdefs.h)(0x62724097)
+I (include/portable.h)(0x68A1CB0F)
+I (include/deprecated_definitions.h)(0x62724097)
+I (include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (include/mpu_wrappers.h)(0x62724097)
+I (include/task.h)(0x62724097)
+I (include/list.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stdarg.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (UART.h)(0x6918377B)
+F (.\driverlib\rvmdk\driverlib.lib)(0x62724097)()
+F (.\portable\RVDS\ARM_CM4F\port.c)(0x68A226F6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keilv4\ARM\RV31\INC-I C:\Keilv4\ARM\CMSIS\Include-I C:\Keilv4\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (portable\RVDS\ARM_CM4F\../../../include/FreeRTOS.h)(0x62724097)
+I (C:\Keilv4\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keilv4\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (portable\RVDS\ARM_CM4F\../../../include/FreeRTOSConfig.h)(0x68B6851C)
+I (portable\RVDS\ARM_CM4F\../../../include/projdefs.h)(0x62724097)
+I (portable\RVDS\ARM_CM4F\../../../include/portable.h)(0x68A1CB0F)
+I (portable\RVDS\ARM_CM4F\../../../include/deprecated_definitions.h)(0x62724097)
+I (portable\RVDS\ARM_CM4F\../../../include/../portable/RVDS/ARM_CM4F/portmacro.h)(0x62724097)
+I (portable\RVDS\ARM_CM4F\../../../include/mpu_wrappers.h)(0x62724097)
+I (portable\RVDS\ARM_CM4F\../../../include/task.h)(0x62724097)
+I (portable\RVDS\ARM_CM4F\../../../include/list.h)(0x62724097)

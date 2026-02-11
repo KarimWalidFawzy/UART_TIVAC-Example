@@ -1,0 +1,113 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+
+Group (Source Group 1)
+
+File 1,1,<.\croutine.c><croutine.c>
+File 1,1,<.\event_groups.c><event_groups.c>
+File 1,1,<.\heap_4.c><heap_4.c>
+File 1,1,<.\LCD.c><LCD.c>
+File 1,1,<.\list.c><list.c>
+File 1,1,<.\main.c><main.c>
+File 1,1,<.\queue.c><queue.c>
+File 1,2,<.\startup_TM4C123.s><startup_TM4C123.s>
+File 1,1,<.\system_TM4C123.c><system_TM4C123.c>
+File 1,1,<.\tasks.c><tasks.c>
+File 1,1,<.\timers.c><timers.c>
+File 1,1,<.\UART.c><UART.c>
+File 1,4,<.\driverlib\rvmdk\driverlib.lib><driverlib.lib>
+File 1,1,<.\portable\RVDS\ARM_CM4F\port.c><port.c>
+
+
+Options 1,0,0  // Target 'Target 1'
+ Device (TM4C123GH6PM)
+ Vendor (Texas Instruments)
+ Cpu (IRAM(0x20000000-0x20007FFF) IROM(0-0x3FFFF) CLOCK(16000000) CPUTYPE("Cortex-M4") FPU2)
+ FlashUt ()
+ StupF ("Startup\TI\TM4C123\startup_TM4C123.s" ("TM4C123 Startup Code"))
+ FlashDR (UL2CM3(-O207 -S0 -C0 -FO7 -FD20000000 -FC800 -FN1 -FF0TM4C123_256 -FS00 -FL040000))
+ DevID (6015)
+ Rgf (TM4C123.h)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ DBC_IFX ()
+ DBC_CMS (-DTM4C123GH6PM)
+ DBC_AMS ()
+ DBC_LMS ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (TI\TM4C123\)
+ OrgReg (TI\TM4C123\)
+ TgStat=16
+ OutDir (.\)
+ OutName (uart-project)
+ GenApp=1
+ GenLib=0
+ GenHex=0
+ Debug=1
+ Browse=1
+ LstDir (.\)
+ HexSel=1
+ MG32K=0
+ TGMORE=0
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ BrunUsr 0 0 <>
+ BrunUsr 1 0 <>
+ CrunUsr 0 0 <>
+ CrunUsr 1 0 <>
+ SVCSID <>
+ GLFLAGS=1790
+ ADSFLGA { 243,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ACPUTYP ("Cortex-M4")
+ RVDEV ()
+ ADSTFLGA { 0,140,0,130,99,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSOCM { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSIRAM { 0,0,0,0,32,0,128,0,0 }
+ OCMADSIROM { 1,0,0,0,0,0,0,4,0 }
+ OCMADSXRAM { 0,0,0,0,0,0,0,0,0 }
+ OCR_RVCT { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,128,0,0,0,0,0,0,0,0,0,0,0 }
+ RV_STAVEC ()
+ ADSCCFLG { 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+ ADSASFLG { 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSAMISC ()
+ ADSADEFN ()
+ ADSAUDEF ()
+ ADSAINCD ()
+ PropFld { 0,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ ADSLDFG { 16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSLDTA (0x00000000)
+ ADSLDDA (0x20000000)
+ ADSLDSC ()
+ ADSLDIB ()
+ ADSLDIC ()
+ ADSLDMC ()
+ ADSLDIF ()
+ ADSLDDW ()
+  OPTDL (SARMCM3.DLL)(-MPU)(DCM.DLL)(-pCM4 -dLaunchPadDLL)(SARMCM3.DLL)(-MPU)(TCM.DLL)(-pCM4)
+  OPTDBG 1884157,0,()()()()()()()()()() (BIN\UL2CM3.DLL)()()()
+ FLASH1 { 25,0,0,0,1,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0 }
+ FLASH2 (BIN\UL2CM3.DLL)
+ FLASH3 ("" ())
+ FLASH4 ()
+EndOpt
+

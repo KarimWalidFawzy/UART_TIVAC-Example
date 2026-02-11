@@ -7,6 +7,7 @@
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/pin_map.h"
+#include "include/event_groups.h"
 #include "inc/hw_memmap.h"
 #include "inc/tm4c123gh6pm.h"
 #include "inc/hw_ints.h"
@@ -15,23 +16,28 @@
 #include "LED.h"
 unsigned char button1_pressed(){return ((~GPIO_PORTF_DATA_R) &0x10);}
 unsigned char button2_pressed(){return ((~GPIO_PORTF_DATA_R) &0x01);}
-static unsigned long long ullIdleCount=0;
-void vApplicationIdleHook(){
+//necessary headers
+static volatile unsigned long long ullIdleCount=0;
+EventGroupHandle_t evg_h;
+EventBits_t uxBits;
+void vApplicationIdleHook()
+{
 	ullIdleCount++;
 }
 void vTask1( void *pvParameters )
 {
-	for( ;; )
+	while(1)
 	{
-	UARTprintf("Task 1 is running\n"); 
-	vTaskDelay(1000/portTICK_RATE_MS);
+		vTaskDelay(1000/portTICK_RATE_MS);
+		UARTprintf("Task 1 is running @ %d, ...\n",(int)xTaskGetTickCount ()); 			
 	}
 }
-int main()
+void main()
 {
 	UARTInit();
 	LEDInit();
-	xTaskCreate( vTask1, "T1", 240, NULL, 2, NULL );
+	evg_h= xEventGroupCreate();
+	xTaskCreate( vTask1, "T1", 240, NULL, 1, NULL );
 	vTaskStartScheduler();
-	for( ;; );
+	while(1);
 }

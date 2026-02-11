@@ -1,0 +1,15 @@
+.\queue.o: queue.c
+.\queue.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdlib.h
+.\queue.o: C:\Keilv4\ARM\ARMCC\bin\..\include\string.h
+.\queue.o: include/FreeRTOS.h
+.\queue.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\queue.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\queue.o: include/FreeRTOSConfig.h
+.\queue.o: include/projdefs.h
+.\queue.o: include/portable.h
+.\queue.o: include/deprecated_definitions.h
+.\queue.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\queue.o: include/mpu_wrappers.h
+.\queue.o: include/task.h
+.\queue.o: include/list.h
+.\queue.o: include/queue.h

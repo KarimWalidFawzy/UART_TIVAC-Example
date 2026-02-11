@@ -1,0 +1,13 @@
+.\heap_4.o: heap_4.c
+.\heap_4.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdlib.h
+.\heap_4.o: include/FreeRTOS.h
+.\heap_4.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\heap_4.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\heap_4.o: include/FreeRTOSConfig.h
+.\heap_4.o: include/projdefs.h
+.\heap_4.o: include/portable.h
+.\heap_4.o: include/deprecated_definitions.h
+.\heap_4.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\heap_4.o: include/mpu_wrappers.h
+.\heap_4.o: include/task.h
+.\heap_4.o: include/list.h

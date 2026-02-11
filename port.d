@@ -1,0 +1,12 @@
+.\port.o: portable\RVDS\ARM_CM4F\port.c
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/FreeRTOS.h
+.\port.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\port.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/FreeRTOSConfig.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/projdefs.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/portable.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/deprecated_definitions.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/mpu_wrappers.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/task.h
+.\port.o: portable\RVDS\ARM_CM4F\../../../include/list.h

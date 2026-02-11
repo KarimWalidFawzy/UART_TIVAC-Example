@@ -1,0 +1,16 @@
+.\tasks.o: tasks.c
+.\tasks.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdlib.h
+.\tasks.o: C:\Keilv4\ARM\ARMCC\bin\..\include\string.h
+.\tasks.o: include/FreeRTOS.h
+.\tasks.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\tasks.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\tasks.o: include/FreeRTOSConfig.h
+.\tasks.o: include/projdefs.h
+.\tasks.o: include/portable.h
+.\tasks.o: include/deprecated_definitions.h
+.\tasks.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\tasks.o: include/mpu_wrappers.h
+.\tasks.o: include/task.h
+.\tasks.o: include/list.h
+.\tasks.o: include/timers.h
+.\tasks.o: include/StackMacros.h

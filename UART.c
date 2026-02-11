@@ -40,7 +40,7 @@ void UARTInit()
 	GPIO_PORTA_DEN_R |=0x3U;
 	UART0_CTL_R = 0x0301U;	
 }
-void UARTprintf(const char* restrict,...)
+void UARTprintf(const char* str,...)
 {
 	int length;
 	char buffer[1<<6];
@@ -48,11 +48,11 @@ void UARTprintf(const char* restrict,...)
 	va_list args;
 	taskENTER_CRITICAL();
 	//We have declared stdargs earlier
-	va_start(args,restrict);
-	length = vsnprintf(buffer,sizeof(buffer), restrict, args);
+	va_start(args,str);
+	length = vsnprintf(buffer,sizeof(buffer), str, args);
 	va_end(args);
 	for (i = 0; i < length && i < sizeof(buffer); i++) {
         UART0_Transmit(buffer[i]);
-  }
+  	}
 	taskEXIT_CRITICAL();
 }

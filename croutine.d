@@ -1,0 +1,14 @@
+.\croutine.o: croutine.c
+.\croutine.o: include/FreeRTOS.h
+.\croutine.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stddef.h
+.\croutine.o: C:\Keilv4\ARM\ARMCC\bin\..\include\stdint.h
+.\croutine.o: include/FreeRTOSConfig.h
+.\croutine.o: include/projdefs.h
+.\croutine.o: include/portable.h
+.\croutine.o: include/deprecated_definitions.h
+.\croutine.o: include/../portable/RVDS/ARM_CM4F/portmacro.h
+.\croutine.o: include/mpu_wrappers.h
+.\croutine.o: include/task.h
+.\croutine.o: include/list.h
+.\croutine.o: include/croutine.h
+.\croutine.o: include/list.h
